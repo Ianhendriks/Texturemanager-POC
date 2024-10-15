@@ -1,0 +1,36 @@
+﻿  Installing vcpkg dependencies to C:\Users\Ian\source\repos\Texturemanager-POC\TexturemanagerPOC\vcpkg_installed\x64-windows\
+  "C:\Users\Ian\source\repos\vcpkg\vcpkg\vcpkg.exe" install  --x-wait-for-lock --triplet "x64-windows" --vcpkg-root "C:\Users\Ian\source\repos\vcpkg\vcpkg\\" "--x-manifest-root=C:\Users\Ian\source\repos\Texturemanager-POC\TexturemanagerPOC\\" "--x-install-root=C:\Users\Ian\source\repos\Texturemanager-POC\TexturemanagerPOC\vcpkg_installed\x64-windows\\" 
+  Detecting compiler hash for triplet x64-windows...
+  Compiler found: C:/Program Files/Microsoft Visual Studio/2022/Community/VC/Tools/MSVC/14.41.34120/bin/Hostx64/x64/cl.exe
+  All requested packages are currently installed.
+  Total install time: 200 ns
+  The package fmt provides CMake targets:
+  
+      find_package(fmt CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE fmt::fmt)
+  
+      # Or use the header-only version
+      find_package(fmt CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE fmt::fmt-header-only)
+  
+  sdl2 provides CMake targets:
+  
+      find_package(SDL2 CONFIG REQUIRED)
+      target_link_libraries(main
+          PRIVATE
+          $<TARGET_NAME_IF_EXISTS:SDL2::SDL2main>
+          $<IF:$<TARGET_EXISTS:SDL2::SDL2>,SDL2::SDL2,SDL2::SDL2-static>
+      )
+  
+  sdl2-image provides CMake targets:
+  
+      find_package(SDL2_image CONFIG REQUIRED)
+      target_link_libraries(main PRIVATE $<IF:$<TARGET_EXISTS:SDL2_image::SDL2_image>,SDL2_image::SDL2_image,SDL2_image::SDL2_image-static>)
+  
+  Main.cpp
+  Renderer.cpp
+  TextureResourceManager.cpp
+  Generating Code...
+  TexturemanagerPOC.vcxproj -> C:\Users\Ian\source\repos\Texturemanager-POC\TexturemanagerPOC\x64\Debug\TexturemanagerPOC.exe
+  'pwsh.exe' is not recognized as an internal or external command,
+  operable program or batch file.

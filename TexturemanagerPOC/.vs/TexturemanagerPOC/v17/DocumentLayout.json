@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\TextureResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:TextureResourceManager.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -39,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:Entity.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:Entity.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:Component.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\SDLRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{B40A5C0B-0A4E-49FA-8A28-D060E7BF291D}|TexturemanagerPOC.vcxproj|solutionrelative:SDLRenderer.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -62,24 +62,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "TextureResourceManager.cpp",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\TextureResourceManager.cpp",
               "RelativeDocumentMoniker": "TextureResourceManager.cpp",
               "ToolTip": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\TextureResourceManager.cpp",
               "RelativeToolTip": "TextureResourceManager.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAA7AAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAQwAEAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-10-12T22:17:50.471Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Main.cpp",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Main.cpp",
               "RelativeDocumentMoniker": "Main.cpp",
@@ -91,19 +91,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 0,
               "Title": "Entity.cpp",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Entity.cpp",
               "RelativeDocumentMoniker": "Entity.cpp",
               "ToolTip": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Entity.cpp",
               "RelativeToolTip": "Entity.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-12T20:51:06.5Z"
+              "WhenOpened": "2024-10-12T20:51:06.5Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Entity.h",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Entity.h",
               "RelativeDocumentMoniker": "Entity.h",
@@ -115,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Component.h",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Component.h",
               "RelativeDocumentMoniker": "Component.h",
@@ -127,15 +128,16 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 1,
               "Title": "Component.cpp",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Component.cpp",
               "RelativeDocumentMoniker": "Component.cpp",
               "ToolTip": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Component.cpp",
               "RelativeToolTip": "Component.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-11T13:01:31.238Z"
+              "WhenOpened": "2024-10-11T13:01:31.238Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -151,7 +153,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "SDLRenderer.h",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\SDLRenderer.h",
               "RelativeDocumentMoniker": "SDLRenderer.h",
@@ -159,8 +161,7 @@
               "RelativeToolTip": "SDLRenderer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-11T11:33:26.333Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T11:33:26.333Z"
             },
             {
               "$type": "Document",
@@ -176,7 +177,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Renderer.h",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\Renderer.h",
               "RelativeDocumentMoniker": "Renderer.h",
@@ -184,12 +185,11 @@
               "RelativeToolTip": "Renderer.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-11T11:02:55.309Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T11:02:55.309Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "TextureResource.cpp",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\TextureResource.cpp",
               "RelativeDocumentMoniker": "TextureResource.cpp",
@@ -197,12 +197,11 @@
               "RelativeToolTip": "TextureResource.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAqwBoAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-10-11T10:58:52.593Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T10:58:52.593Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "TextureResourceManager.h",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\TextureResourceManager.h",
               "RelativeDocumentMoniker": "TextureResourceManager.h",
@@ -210,12 +209,11 @@
               "RelativeToolTip": "TextureResourceManager.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAzAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-11T10:56:25.885Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T10:56:25.885Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "TextureResource.h",
               "DocumentMoniker": "C:\\Users\\Ian\\source\\repos\\Texturemanager-POC\\TexturemanagerPOC\\TextureResource.h",
               "RelativeDocumentMoniker": "TextureResource.h",
@@ -223,8 +221,7 @@
               "RelativeToolTip": "TextureResource.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAACAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-10-11T10:56:12.708Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-11T10:56:12.708Z"
             }
           ]
         }
